@@ -1,0 +1,110 @@
+body{
+    background-image: url('imagenes/fondo\ pagina.png');
+  background-size: cover; /* Para cubrir todo el área del body */
+  background-position: center; /* Centrar la imagen */
+  background-repeat: no-repeat; /* Evitar repetición de la imagen */
+    background-color: rgb(172, 127, 255);
+}
+.bloque {
+    
+    height: 50px; 
+    color: rgb(252, 252, 252);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    border-radius: 10px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(23, 235, 235, 0.5);
+}
+    
+
+
+
+
+.bloque_nav{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.carf { 
+  /*  background-image: url('imagenes/Moderno\ Foto\ Viajes\ Revista.jpg');*/
+  
+    margin: 5px; 
+    
+    border-radius: 20px;
+    border: 7px solid #0f0403;
+  
+}
+.carf{ position: relative;
+    top: 2px;
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 300px;
+    height: 600px;
+  
+
+}
+.header__nav{
+    background-image: url('imagenes/Moderno\ Foto\ Viajes\ Revista.jpg');
+}
+.header__nav li a{
+    text-shadow: 4px 4px 4px rgba(1, 2, 15, 0.5);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-weight: bold;
+    margin: 0;
+   
+}
+.header__nav li{list-style:none;
+ margin-bottom: 30px;
+}
+.tex{position: relative;
+    left: -20px;
+    font-size: 30px;
+    color: #fffefe;
+    background-color: rgb(7, 0, 0);
+    border-radius: 10px;
+   
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    color: blue;
+    border-radius: 50%;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    color: rgb(249, 249, 255);
+    border-radius: 50%;
+}
+.slide{
+color: rgb(255, 254, 254);
+    border-radius: 10px;
+    font-weight: bold;
+    height: 150px;
+    position: relative;
+    top: 20px; font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+/*.tex1{
+    background-color: rgb(24, 48, 36);
+    
+    
+}
+*/
+   
+
+    
+    .tex2{
+        font-size: 20px;
+        color: #eeeded;
+        background-color: rgb(6, 7, 3);
+        border-radius: 10px;
+       
+        position: relative;
+        top: -30px;
+    }

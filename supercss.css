@@ -1,0 +1,56 @@
+body{ margin: 0;
+    padding: 0;
+    background: url('imagenes/fondo\ pagina.png') center/cover no-repeat fixed;
+    /* Ajusta la ruta de la imagen de fondo */
+    font-family: 'Arial', sans-serif;
+   
+      
+}
+.comi{
+
+background-color: black;
+color: rgb(161, 177, 18);
+display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+   
+}
+
+.bloque{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 400px;
+    height: 500px;
+    background-color: blue;
+    margin: 5px;
+    color: black;
+}
+.card-body{
+    background-color: black;
+    color:beige;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.card-img-overlay{
+    position: relative;
+    top: 5px;
+   
+}
+.boton-enlace {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .boton-enlace:hover {
+    background-color: #2980b9;
+  }

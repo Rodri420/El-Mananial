@@ -1,0 +1,33 @@
+body{background-image: url('imagenes/fondo\ pagina.png');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar repetición de la imagen */
+      background-color: rgb(172, 127, 255);
+
+}
+
+.conteiner{
+    background-color: rgba(128, 209, 209, 0.829);
+    border: 5px solid rgb(10, 2, 2);
+    border-radius: 20px;
+}
+.conteiner_nav{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 300px;
+    height: 300px;
+   
+    margin: 5px;
+}
+.card-body{
+    background-color: rgb(0, 0, 0);
+    color:rgb(97, 97, 21);
+    font-size: 20px;
+    border-radius: 10px;
+}
