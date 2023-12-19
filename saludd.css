@@ -1,0 +1,22 @@
+body{
+    background-image: url('imagenes/fondo\ pagina.png');
+  background-size: cover; /* Para cubrir todo el área del body */
+  */
+  background-repeat: no-repeat; /* Evitar repetición de la imagen */
+width: 100%;
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 600px;
+    height: 650px;
+    background-color: blue;
+    margin: 5px;
+    color: black;
+}
+
