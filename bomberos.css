@@ -1,0 +1,44 @@
+body{
+    
+    
+    margin: 0;
+    padding: 0;
+    background-image: url('imagenes/fondo\ pagina.png'); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Cubre todo el fondo */
+    background-position: center; /* Centra la imagen de fondo */
+  /*  background-repeat: no-repeat; /* Evita repetir la imagen de fondo */
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana visible */
+     /* Color del texto para que sea legible en la imagen de fondo */
+}
+.title{
+  
+font-size: 40px;
+color: rgb(196, 169, 20); font-weight: bold;
+text-shadow: 4px 4px 4px rgba(10, 148, 148, 0.5);
+
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card
+{
+    flex-grow: 1;
+    flex-basis: 200;
+    height: 100%;
+    width: 600px;
+    margin: 5px;
+color: rgb(3, 3, 43);
+    background-color: rgba(243, 203, 203, 0.726);
+    font-weight: bold; /* Aplica negrita al texto */
+}
+.carousel-control-prev-icon{
+    color: rgb(247, 247, 247);
+    background-color: black;
+    border-radius: 50%;
+}
+.carousel-control-next-icon{
+    color: rgb(247, 247, 247);
+    background-color: black;
+    border-radius: 50%;
+}
