@@ -7,8 +7,11 @@ body{background-image: url('imagenes/fondo\ pagina.png');
 }
 
 .conteiner{
-    background-color: rgba(128, 209, 209, 0.829);
-    border: 5px solid rgb(10, 2, 2);
+    background-image: url('imagenes/titulo.jpg');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar repetición de la imagen */
+    
     border-radius: 20px;
 }
 .conteiner_nav{
@@ -28,7 +31,7 @@ body{background-image: url('imagenes/fondo\ pagina.png');
 .card-body{
     
     position: relative;
-    background-color: rgb(133, 19, 19);
+    background-color: rgb(7, 0, 0);
     color:rgb(97, 97, 21);
     font-size: 20px;
     border-radius: 10px;

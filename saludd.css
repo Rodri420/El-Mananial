@@ -6,9 +6,14 @@ body{
 
 }
 .title{
-  
+    background-image: url('imagenes/titulo.jpg');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar repetición de la imagen */
+    
+    border-radius: 20px;
 font-size: 40px;
-color: rgb(21, 4, 100);
+color: rgb(0, 0, 0);
 
 }
 

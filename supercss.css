@@ -8,8 +8,12 @@ body{ margin: 0;
 }
 .comi{
 
-background-color: black;
-color: rgb(161, 177, 18);
+    background-image: url('imagenes/titulo.jpg');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar repetición de la imagen */
+    
+    border-radius: 20px;
 display: flex;
     flex-wrap: wrap;
     border-radius: 5px;
@@ -19,6 +23,7 @@ display: flex;
 .bloque{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .card{
