@@ -1,5 +1,5 @@
 body{
-    background-image: url('imagenes/fondo\ pagina.png');
+    background-image: url('imagenes/cristo.jpeg');
   background-size: cover; /* Para cubrir todo el área del body */
   background-position: center; /* Centrar la imagen */
   background-repeat: no-repeat; /* Evitar repetición de la imagen */
@@ -36,15 +36,16 @@ body{
     height: 600px;
   
   margin: 5px; 
-       background-image: url('imagenes/Moderno\ Foto\ Viajes\ Revista.jpg');
+       background-image: url('');
     border-radius: 20px;
-    border: 7px solid #0f0403;
+    border: 4px solid #333; 
+  
 }
 
 .header__nav li a{
     text-shadow: 4px 4px 4px rgba(1, 2, 15, 0.5);
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(1, 19, 116);
     padding: 5px;
     font-weight: bold;
     margin: 0;
