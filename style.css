@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+    background: url('imagenes22/fondo\ pagina.png') center/cover no-repeat fixed;
+   
+    
+    align-items: stretch;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  
+  
+}
+
+.bloque {
+    width: 98%; /* Puedes ajustar el ancho según tus necesidades */
+    margin: 0 auto; /* Centra el contenido en la pantalla */
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  
+padding: 5px;
+gap: 5px;
+  }
+
+
+
+.total{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(181, 194, 3, 0.8);
+
+
+
+        }
+.card1{ 
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+height: 650px;
+    margin: 0 auto; /* Centra el bloque horizontalmente */
+    border-radius: 10px;
+    
+    background-image: url('imagenes22/Documento\ A4\ Portada\ de\ Trabajo\ Moderno\ Azul.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  
+  .card2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+height: 650px;
+    margin: 0 auto; /* Centra el bloque horizontalmente */
+    border-radius: 10px;
+    
+    background-image: url('imagenes22/Post\ de\ Instagram\ para\ publicaciones\ fondo\ degradado\ azul\ y\ morado\ .png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+ 
+  }
+  .card2 li{ font-weight: bold;
+    
+    font-size: 43px;
+    margin-bottom: 50px; 
+    color: #140101; /* Color del texto de la lista */
+    text-shadow: 2px 2px 4px rgba(194, 25, 3, 0.8);
+  }
+ 
+ 
+ .card2 a{
+    color: rgb(255, 255, 255);
+    
+ }
+ .card2  a:hover{ text-decoration: none;
+    color: inherit;
+   
+    text-decoration: underline;
+}

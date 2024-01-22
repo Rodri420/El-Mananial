@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(143, 102, 180);
+    font-family: 'Arial', sans-serif;
+}
+.title{color: aliceblue;
+    font-size: 50px;
+    width: auto;
+    height: auto;
+background-color: rgb(78, 3, 3);    
+text-align: center;
+
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    flex-grow: 1;
+    flex-basis: 200;
+    width: auto;
+    height: auto;
+  background-color: rgb(43, 26, 58);
+    margin: 5px;
+    color: rgb(253, 250, 255);
+    position: relative;
+    font-size: 30px;
+
+}
+.col-4{ flex-grow: 1;
+    flex-basis: 200;}
+    .card-img-top {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Estilos para las tarjetas */
+    .scrollspy-example h4 {
+        margin-bottom: 20px;
+    }
+    
+    /* Estilos para las columnas */
+    .col-4 {
+        padding: 0;
+    }
+    
+    /* Estilos para el menú de la izquierda */
+    .simple-list-example-scrollspy {
+        position: sticky;
+        top: 0;
+    }
+    
+    /* Estilos para la lista de enlaces en el menú de la izquierda */
+    .simple-list-example-scrollspy a {
+        text-align: left;
+        padding: 8px 12px;
+        display: block;
+        color: #212529;
+        text-decoration: none;
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        margin-bottom: 2px;
+    }
+    
+    /* Estilos para las tarjetas dentro del área de contenido principal */
+    .scrollspy-example h4 {
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    /* Ajuste de márgenes para dispositivos pequeños */
+    @media (max-width: 767px) {
+        .col-4 {
+            margin-bottom: 20px;
+        }
+    }
