@@ -4,7 +4,7 @@ body{   font-weight: bold;
   
   background-repeat: no-repeat; /* Evitar repetición de la imagen */
 
-}
+} .accordion-body {background-color: black;}
 .title{
     background-image: url('imagenes/titulo.jpg');
     background-size: cover; /* Para cubrir todo el área del body */
@@ -32,12 +32,12 @@ color: rgb(0, 0, 0);
     flex-grow: 1;
     flex-basis: 200;
     width: 250px;
-     height: auto;
+     height: 400px;
     display: block;
     
     background-color: rgb(255, 255, 255);
     margin: 5px;
-    color: rgb(117, 4, 4);
+    color: rgb(10, 2, 2);
 }
 
 .card{
@@ -52,5 +52,5 @@ color: rgb(0, 0, 0);
          height: auto;
   
         margin: 5px;
-        color: rgb(117, 4, 4);
+        color: rgb(8, 0, 0);
     }
