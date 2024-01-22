@@ -31,21 +31,24 @@ display: flex;
     flex-basis: 200;
     width: 400px;
     height: 500px;
-    background-color: blue;
+   
     margin: 5px;
-    color: black;
+   
 }
 .card-body{
-    background-color: black;
-    color:beige;
+    
+   
     font-size: 20px;
     border-radius: 10px;
 }
 .card-img-overlay{
-    position: relative;
+    position: relative;color:black;
     top: 5px;
+    background-color: rgb(166, 245, 245);
+    height: 100%;
    
 }
+
 .boton-enlace {
     display: inline-block;
     padding: 10px 20px;

@@ -33,3 +33,7 @@ body{
            
             color: #000000; /* Cambia el color a tu preferencia utilizando un código hexadecimal o un nombre de color */
         }
+        .btn a {
+            color: #000000; /* Cambia el color a tu preferencia utilizando un código hexadecimal o un nombre de color */
+            text-decoration: none; /* Elimina el subrayado */
+        }
